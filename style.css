@@ -1,1 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* =========================
+   BARRA DE NAVEGACIÓN
+   ========================= */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+    background-color: #222;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+
+/* =========================
+   GALERÍA DE SERVICIOS
+   ========================= */
+
+.servicios {
+    padding: 40px 20px;
+}
+
+.servicios h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    flex: 1 1 calc(25% - 20px);
+
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .tarjeta {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+}
+
+
+/* =========================
+   MÓVIL
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .tarjeta {
+        flex: 1 1 100%;
+    }
+
+}
