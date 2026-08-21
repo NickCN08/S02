@@ -9,9 +9,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* =========================
-   BARRA DE NAVEGACIÓN
-   ========================= */
 
 .navbar {
     display: flex;
@@ -43,11 +40,6 @@ body {
     color: #00bcd4;
 }
 
-
-/* =========================
-   GALERÍA DE SERVICIOS
-   ========================= */
-
 .servicios {
     padding: 40px 20px;
 }
@@ -75,11 +67,6 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-/* =========================
-   TABLET
-   ========================= */
-
 @media (max-width: 768px) {
 
     .tarjeta {
@@ -88,10 +75,6 @@ body {
 
 }
 
-
-/* =========================
-   MÓVIL
-   ========================= */
 
 @media (max-width: 480px) {
 
